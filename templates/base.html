@@ -15,20 +15,20 @@
                 <img id="logo" src="../static/img/LOGO-JUREMA-HORIZONTAL-1536x539.png" alt="">
                     
                 <!--Barra de navegação-->
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                        <a class="navbar-brand" href="{{url_for('inicio')}}">Início</a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="true" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse">
-                        <div class="navbar-nav">
-                            <a class="nav-item nav-link active" href="{{url_for('servicos')}}">Serviços</a>
-                            <a class="nav-item nav-link active" href="{{url_for('contatos')}}">Contato</a>
-                            <a class="nav-item nav-link active" href="https://mailpro.uol.com.br/construtorajurema.com.br/">Webmail</a>
-                        </div>
-                        </div>
-                    </nav>
-                <hr>
+                        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                            <a class="navbar-brand" href="{{url_for('inicio')}}">Início</a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" >
+                            <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse">
+                                <div class="navbar-nav">
+                                    <a class="nav-item nav-link active" href="{{url_for('servicos')}}">Serviços</a>
+                                    <a class="nav-item nav-link active" href="{{url_for('contatos')}}">Contato</a>
+                                    <a class="nav-item nav-link active" href="https://mailpro.uol.com.br/construtorajurema.com.br/">Webmail</a>
+                                </div>
+                            </div>
+                        </nav>
+                    <hr>
                 {% block conteudo %}
                 {% endblock conteudo %}
 
@@ -51,13 +51,12 @@
             </a>
 
             <ul class="nav col-md-4 justify-content-end">
-            <li class="nav-item"><a href="{{url_for('inicio')}}" class="nav-link px-2 text-muted">Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+            <li class="nav-item"><a href="{{url_for('inicio')}}" class="nav-link px-2 text-muted">Início</a></li>
+            <li class="nav-item"><a href="{{url_for('servicos')}}" class="nav-link px-2 text-muted">Serviços</a></li>
+            <li class="nav-item"><a href="{{url_for('contatos')}}" class="nav-link px-2 text-muted">Contato</a></li>
+            <li class="nav-item"><a href="https://mailpro.uol.com.br/construtorajurema.com.br/" class="nav-link px-2 text-muted">Webmail</a></li>
             </ul>
         </footer>
-        <p class="text-muted" style="text-align: center;">Todos os direitos reservados. Criado por alissonsts910@gmail.com</p>
+        <p class="text-muted" style="text-align: center;">Todos os direitos reservados. Desenvolvido por alissonsts910@gmail.com</p>
     </div>
 </html>
