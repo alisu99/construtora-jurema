@@ -1,5 +1,6 @@
 body {
     inline-size: 100%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #logo {
@@ -10,10 +11,11 @@ body {
 #poster{
     float: left;
     right: 20px;
+    padding-right: 70px;
 }
 
-#sobre {
-    text-align: justify;
-    float: right;
-    left: 20px;
+#texto1 {
+    padding-top: 30px;
 }
+
+
