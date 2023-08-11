@@ -10,28 +10,31 @@
 </head>
 
 <body>
-    <div class="container-sm">
+    <div >
                 <hr>
                 <img id="logo" src="../static/img/LOGO-JUREMA-HORIZONTAL-1536x539.png" alt="">
-                    
+                
                 <!--Barra de navegação-->
-                        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                            <a class="navbar-brand" href="{{url_for('inicio')}}">Início</a>
+                        <nav id="navbar1" class="navbar navbar-expand-lg navbar-light">
+                            <div class="container">
+                            <a class="navbar-brand" href="{{url_for('inicio')}}" style="color: white;">INÍCIO</a>
                             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" >
                             <span class="navbar-toggler-icon"></span>
                             </button>
                             <div class="collapse navbar-collapse">
-                                <div class="navbar-nav">
-                                    <a class="nav-item nav-link active" href="{{url_for('servicos')}}">Serviços</a>
-                                    <a class="nav-item nav-link active" href="{{url_for('contatos')}}">Contato</a>
-                                    <a class="nav-item nav-link active" href="https://mailpro.uol.com.br/construtorajurema.com.br/">Webmail</a>
+                              <div class="navbar-nav">
+                                    <a class="nav-item nav-link active" href="{{url_for('servicos')}}" style="color: white;">SERVIÇOS</a>
+                                    <a class="nav-item nav-link active" href="{{url_for('contatos')}}" style="color: white;">CONTATO</a>
+                                    <a class="nav-item nav-link active" href="https://mailpro.uol.com.br/construtorajurema.com.br/" style="color: white;">WEBMAIL</a>
                                 </div>
                             </div>
                         </nav>
+                    
                     <hr>
+                <div class="container">
                 {% block conteudo %}
                 {% endblock conteudo %}
-
+                </div>
 
             
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
