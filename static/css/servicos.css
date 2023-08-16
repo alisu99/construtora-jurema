@@ -1,0 +1,56 @@
+#corpo-texto{
+    color: gray;
+    width: 100%;
+    
+}
+
+
+#texto-titulo {
+    color: darkgreen;
+}
+
+
+#foto{
+    float: left;
+    right: 20px;
+    padding-right: 70px;
+    height: 50%;
+}
+
+
+#saneamento {
+    float: right;
+    right: 20px;
+    padding-left: 70px;
+    height: 50%;
+}
+
+#mobilidade{
+    float: left;
+    right: 20px;
+    padding-right: 70px;
+    height: 50%;
+}
+
+#barragem {
+    float: right;
+    right: 20px;
+    padding-left: 70px;
+    height: 50%;
+}
+
+#asfalto{
+    float: left;
+    right: 20px;
+    padding-right: 70px;
+    height: 50%;
+}
+
+#divequipamentos{
+    margin-left: 120px;
+}
+
+#equipamentos{
+    height: 40%;
+    padding-bottom: 5px;
+}
