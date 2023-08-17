@@ -50,5 +50,11 @@ body {
 }
 
 #item-footer{
-    color: white;
+    background-color: greenyellow;
+}
+
+#texto-prioridade{
+    color:  darkgreen;
+    background-color: greenyellow;
+    width: 43%;
 }
