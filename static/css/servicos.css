@@ -1,12 +1,23 @@
+@keyframes fadeIn {
+    from {
+      opacity: 0; /* Começa com opacidade 0 (invisível) */
+    }
+    to {
+      opacity: 1; /* Termina com opacidade 1 (totalmente visível) */
+    }
+  }
+  
+
 #corpo-texto{
     color: gray;
     width: 100%;
-    
+    animation: fadeIn 1s ease-in-out; /* Nome da animação, duração, função de temporização */
 }
 
 
 #texto-titulo {
     color: darkgreen;
+    animation: fadeIn 1s ease-in-out; /* Nome da animação, duração, função de temporização */
 }
 
 
@@ -14,7 +25,14 @@
     float: left;
     right: 20px;
     padding-right: 70px;
-    height: 50%;
+    height: 45%;
+    animation: fadeIn 1s ease-in-out; /* Nome da animação, duração, função de temporização */
+}
+
+
+#foto:hover{
+    transform: scale(1.1);
+    transition:ease-in-out;
 }
 
 
@@ -23,6 +41,12 @@
     right: 20px;
     padding-left: 70px;
     height: 50%;
+    animation: fadeIn 1s ease-in-out; /* Nome da animação, duração, função de temporização */
+}
+
+#saneamento:hover{
+    transform: scale(1.1);
+    transition:ease-in-out;
 }
 
 #mobilidade{
@@ -30,6 +54,12 @@
     right: 20px;
     padding-right: 70px;
     height: 50%;
+    animation: fadeIn 1s ease-in-out; /* Nome da animação, duração, função de temporização */
+}
+
+#mobilidade:hover{
+    transform: scale(1.1);
+    transition:ease-in-out;
 }
 
 #barragem {
@@ -37,6 +67,12 @@
     right: 20px;
     padding-left: 70px;
     height: 50%;
+    animation: fadeIn 1s ease-in-out; /* Nome da animação, duração, função de temporização */
+}
+
+#barragem:hover{
+    transform: scale(1.1);
+    transition:ease-in-out;
 }
 
 #asfalto{
@@ -44,13 +80,31 @@
     right: 20px;
     padding-right: 70px;
     height: 50%;
+    animation: fadeIn 1s ease-in-out; /* Nome da animação, duração, função de temporização */
+}
+
+#asfalto:hover{
+    transform: scale(1.1);
+    transition:ease-in-out;
 }
 
 #divequipamentos{
     margin-left: 120px;
+    animation: fadeIn 1s ease-in-out; /* Nome da animação, duração, função de temporização */
+}
+
+#divequipamentos:hover{
+    transform: scale(1.1);
+    transition:ease-in-out;
 }
 
 #equipamentos{
     height: 40%;
     padding-bottom: 5px;
+    animation: fadeIn 1s ease-in-out; /* Nome da animação, duração, função de temporização */
+}
+
+#equipamentos:hover{
+    transform: scale(1.1);
+    transition:ease-in-out;
 }

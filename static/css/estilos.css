@@ -2,8 +2,6 @@ body {
     inline-size: 100%;
     font-family:Sans-serif;
     background-color: white;
-    background-image: url(../img/);
-    background-size: cover;
 }
 
 #navbar1 {
@@ -42,7 +40,8 @@ body {
 
 #text2 {
     color:  darkgreen;
-    background-color: greenyellow;
+    background-image: url(../img/icone.ico);
+    background-position: 60%;
 }
 
 #footer {
