@@ -15,13 +15,20 @@
                 <hr>
                 <img id="logo" src="../static/img/LOGO-JUREMA-HORIZONTAL-1536x539.png" alt="">
                 <hr>
-                <!--Barra de navegação-->
+<style>
+    #body-base{
+        background-color:rgb(236, 255, 184);
+    }
+</style>
+
+<div id="body-base">
                 <div class="container">
-                        <nav id="navbar1" style="height: 15%;" class="navbar navbar-expand-lg navbar-light">
+                        <!--Barra de navegação-->
+                        <nav id="navbar1" class="navbar navbar-expand-lg navbar-light">
                             <div class="container">
                             <a class="navbar-brand" href="{{url_for('inicio')}}" style="color: white;">Início</a>
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" >
-                            <span class="navbar-toggler-icon"></span>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" >
+                            <span   style="color: white;" class="navbar-toggler-icon"></span>
                             </button>
                             <div class="collapse navbar-collapse">
                               <div id="item-navbar" class="navbar-nav">
@@ -51,11 +58,11 @@
             <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
             </a>
 
-            <ul class="nav col-md-4 justify-content-end">
-            <li id="item-footer" class="nav-item"><a href="{{url_for('inicio')}}" class="nav-link px-2 text-muted">Início</a></li>
-            <li id="item-footer" class="nav-item"><a href="{{url_for('servicos')}}" class="nav-link px-2 text-muted">Serviços</a></li>
-            <li id="item-footer" class="nav-item"><a href="{{url_for('contatos')}}" class="nav-link px-2 text-muted">Fale conosco</a></li>
-            <li id="item-footer" class="nav-item"><a href="https://mailpro.uol.com.br/construtorajurema.com.br/" class="nav-link px-2 text-muted">Webmail</a></li>
+            <ul id="lista-footer" class="nav col-md-4 justify-content-end">
+            <li class="nav-item"><a href="{{url_for('inicio')}}" class="nav-link px-2 text-muted">Início</a></li>
+            <li class="nav-item"><a href="{{url_for('servicos')}}" class="nav-link px-2 text-muted">Serviços</a></li>
+            <li class="nav-item"><a href="{{url_for('contatos')}}" class="nav-link px-2 text-muted">Fale conosco</a></li>
+            <li class="nav-item"><a href="https://mailpro.uol.com.br/construtorajurema.com.br/" class="nav-link px-2 text-muted">Webmail</a></li>
             </ul>
         </footer>
         <p class="text-muted" style="text-align: center;">Todos os direitos reservados. Desenvolvido por alissonsts910@gmail.com</p>
@@ -64,4 +71,5 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
         </body>
+</div>
 </html>

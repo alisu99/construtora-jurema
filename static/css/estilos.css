@@ -1,7 +1,6 @@
 body {
     inline-size: 100%;
     font-family:Sans-serif;
-    background-color: white;
 }
 
 #navbar1 {
@@ -48,8 +47,10 @@ body {
     background-color: darkgreen;
 }
 
-#item-footer{
-    background-color: greenyellow;
+#lista-footer{
+    background-color: white;
+    padding-right: 30px;
+    width: 100%;
 }
 
 #texto-prioridade{
