@@ -27,12 +27,14 @@
     padding-right: 70px;
     height: 45%;
     animation: fadeIn 1s ease-in-out; /* Nome da animação, duração, função de temporização */
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.1s, transform 0.2s;
 }
 
 
 #foto:hover{
     transform: scale(1.1);
-    transition:ease-in-out;
 }
 
 
@@ -42,11 +44,14 @@
     padding-left: 70px;
     height: 50%;
     animation: fadeIn 1s ease-in-out; /* Nome da animação, duração, função de temporização */
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.1s, transform 0.2s;
 }
 
 #saneamento:hover{
     transform: scale(1.1);
-    transition:ease-in-out;
+
 }
 
 #mobilidade{
@@ -55,11 +60,14 @@
     padding-right: 70px;
     height: 50%;
     animation: fadeIn 1s ease-in-out; /* Nome da animação, duração, função de temporização */
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.1s, transform 0.2s;
 }
 
 #mobilidade:hover{
     transform: scale(1.1);
-    transition:ease-in-out;
+
 }
 
 #barragem {
@@ -68,11 +76,13 @@
     padding-left: 70px;
     height: 50%;
     animation: fadeIn 1s ease-in-out; /* Nome da animação, duração, função de temporização */
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.1s, transform 0.2s;
 }
 
 #barragem:hover{
     transform: scale(1.1);
-    transition:ease-in-out;
 }
 
 #asfalto{
@@ -81,11 +91,14 @@
     padding-right: 70px;
     height: 50%;
     animation: fadeIn 1s ease-in-out; /* Nome da animação, duração, função de temporização */
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.1s, transform 0.2s;
 }
 
 #asfalto:hover{
     transform: scale(1.1);
-    transition:ease-in-out;
+
 }
 
 #divequipamentos{
@@ -93,18 +106,18 @@
     animation: fadeIn 1s ease-in-out; /* Nome da animação, duração, função de temporização */
 }
 
-#divequipamentos:hover{
-    transform: scale(1.1);
-    transition:ease-in-out;
-}
 
 #equipamentos{
     height: 40%;
     padding-bottom: 5px;
-    animation: fadeIn 1s ease-in-out; /* Nome da animação, duração, função de temporização */
-}
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.1s, transform 0.2s;
+  }
+  
 
 #equipamentos:hover{
     transform: scale(1.1);
-    transition:ease-in-out;
+
 }

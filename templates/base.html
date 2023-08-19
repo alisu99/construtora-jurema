@@ -17,28 +17,22 @@
                 <hr>
 <style>
     #body-base{
-        background-color:rgb(236, 255, 184);
+        background-color:rgb(237, 251, 197);
     }
 </style>
 
 <div id="body-base">
-                <div class="container">
                         <!--Barra de navegação-->
                         <nav id="navbar1" class="navbar navbar-expand-lg navbar-light">
                             <div class="container">
-                            <a class="navbar-brand" href="{{url_for('inicio')}}" style="color: white;">Início</a>
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" >
-                            <span   style="color: white;" class="navbar-toggler-icon"></span>
-                            </button>
-                            <div class="collapse navbar-collapse">
+                            <a id="button" class="navbar-brand" href="{{url_for('inicio')}}" style="color: white;">Início</a>
                               <div id="item-navbar" class="navbar-nav">
-                                    <a class="nav-item nav-link active" href="{{url_for('servicos')}}" style="color: white;">Serviços</a>
-                                    <a class="nav-item nav-link active" href="{{url_for('contatos')}}" style="color: white;">Fale conosco</a>
-                                    <a class="nav-item nav-link active" href="https://mailpro.uol.com.br/construtorajurema.com.br/" style="color: white;">Webmail</a>
+                                    <a id="button" class="nav-item nav-link active" href="{{url_for('servicos')}}" style="color: white;">Serviços</a>
+                                    <a id="button" class="nav-item nav-link active" href="{{url_for('contatos')}}" style="color: white;">Fale conosco</a>
+                                    <a id="button" class="nav-item nav-link active" href="https://mailpro.uol.com.br/construtorajurema.com.br/" style="color: white;">Webmail</a>
                                 </div>
                             </div>
                         </nav>
-            </div>
                     <hr>
                 <div class="container">
                 {% block conteudo %}

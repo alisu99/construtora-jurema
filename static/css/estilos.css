@@ -1,3 +1,18 @@
+#button {
+    display: inline-block;
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.1s, transform 0.2s;
+  }
+  
+  #button:hover {
+    transform: scale(1.1);
+
+  }
+
 body {
     inline-size: 100%;
     font-family:Sans-serif;
@@ -6,12 +21,17 @@ body {
 #navbar1 {
     background-color: darkgreen;
     width: 100%;
+
+}
+
+#item-navbar {
+    background-color: darkgreen;
+    width: 100%;
 }
 
 #logo {
-    width: 370px;
-    height: 120px;
-
+    width: 23%;
+    background-color: white;
 }
 
 #poster{
@@ -31,6 +51,7 @@ body {
 
 #text {
     color:  darkgreen;
+    font-weight:lighter;
 }
 
 #text1 {
@@ -39,9 +60,9 @@ body {
 
 #text2 {
     color:  darkgreen;
-    background-image: url(../img/icone.ico);
-    background-position: 60%;
+    background-color: greenyellow;
 }
+
 
 #footer {
     background-color: darkgreen;
