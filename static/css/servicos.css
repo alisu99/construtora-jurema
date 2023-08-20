@@ -9,7 +9,7 @@
   
 
 #corpo-texto{
-    color: gray;
+    color: grey;
     width: 100%;
     animation: fadeIn 1s ease-in-out; /* Nome da animação, duração, função de temporização */
 }
@@ -25,7 +25,7 @@
     float: left;
     right: 20px;
     padding-right: 70px;
-    height: 45%;
+    height: 44%;
     animation: fadeIn 1s ease-in-out; /* Nome da animação, duração, função de temporização */
     border-radius: 2px;
     cursor: pointer;
@@ -42,7 +42,7 @@
     float: right;
     right: 20px;
     padding-left: 70px;
-    height: 50%;
+    height: 46%;
     animation: fadeIn 1s ease-in-out; /* Nome da animação, duração, função de temporização */
     border-radius: 2px;
     cursor: pointer;
@@ -58,7 +58,7 @@
     float: left;
     right: 20px;
     padding-right: 70px;
-    height: 50%;
+    height: 46%;
     animation: fadeIn 1s ease-in-out; /* Nome da animação, duração, função de temporização */
     border-radius: 2px;
     cursor: pointer;
@@ -74,7 +74,7 @@
     float: right;
     right: 20px;
     padding-left: 70px;
-    height: 50%;
+    height: 46%;
     animation: fadeIn 1s ease-in-out; /* Nome da animação, duração, função de temporização */
     border-radius: 2px;
     cursor: pointer;
@@ -89,7 +89,7 @@
     float: left;
     right: 20px;
     padding-right: 70px;
-    height: 50%;
+    height: 46%;
     animation: fadeIn 1s ease-in-out; /* Nome da animação, duração, função de temporização */
     border-radius: 2px;
     cursor: pointer;

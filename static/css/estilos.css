@@ -10,8 +10,14 @@
   
   #button:hover {
     transform: scale(1.1);
+    text-decoration:underline;
+    text-transform:uppercase;
+}
 
-  }
+#poster{
+    float: left;
+    width:min-content;
+}
 
 body {
     inline-size: 100%;
@@ -21,7 +27,6 @@ body {
 #navbar1 {
     background-color: darkgreen;
     width: 100%;
-
 }
 
 #item-navbar {
@@ -30,8 +35,9 @@ body {
 }
 
 #logo {
-    width: 23%;
+    width: 30%;
     background-color: white;
+    padding-left: 5%;
 }
 
 #poster{
@@ -77,5 +83,13 @@ body {
 #texto-prioridade{
     color:  darkgreen;
     background-color: greenyellow;
-    width: 43%;
 }
+
+#cards{
+    width: 18rem;
+    float: left;
+    margin-right: 2%;
+    padding-bottom: 2%;
+    color: darkgreen;
+}
+
