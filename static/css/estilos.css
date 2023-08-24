@@ -11,7 +11,6 @@
   #button:hover {
     transform: scale(1.1);
     text-decoration:underline;
-    text-transform:uppercase;
 }
 
 #poster{
@@ -36,8 +35,9 @@ body {
 
 #logo {
     width: 30%;
-    background-color: white;
+    background-color: transparent;
     padding-left: 5%;
+
 }
 
 #poster{
@@ -92,4 +92,3 @@ body {
     padding-bottom: 2%;
     color: darkgreen;
 }
-
