@@ -92,3 +92,7 @@ body {
     padding-bottom: 2%;
     color: darkgreen;
 }
+
+#instagram {
+    position:static;
+}
